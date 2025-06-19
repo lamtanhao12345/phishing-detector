@@ -46,21 +46,22 @@
 
 ## 📁 Cấu trúc thư mục
 
-| Thư mục / Tập tin               | Mô tả                                                      |
+| Thư mục / Tập tin              |               Mô tả                                         |
 |--------------------------------|-------------------------------------------------------------|
-| `data/`                        | Chứa dữ liệu huấn luyện và test                            |
-| `backend_XGBoost/`             | Flask server sử dụng mô hình XGBoost                      |
-| `backend_CatBoost/`            | Server sử dụng mô hình CatBoost                            |
-| `backend_LightGBM/`            | Server sử dụng mô hình LightGBM                            |
-| `extension/`                   | Source code của extension trình duyệt Chrome               |
-| ├── `background.js`            | Background script của extension                            |
-| ├── `content.js`               | Tương tác với nội dung trang web                           |
-| ├── `icons.png`                | Icon cho extension                                         |
-| ├── `manifest.json`            | Cấu hình extension Chrome                                  |
-| ├── `model.js`                 | Tải mô hình dự đoán vào trình duyệt                       |
-| ├── `popup.html / popup.css`   | Giao diện popup khi click icon extension                   |
-| └── `popup.js`                 | Logic tương tác với giao diện popup                        |
-| `Phishing_Model.ipynb`         | Jupyter Notebook huấn luyện mô hình                        |
+| `data/`                        | Chứa dữ liệu huấn luyện và test                             |
+| `backend_XGBoost/`             | Mô hình XGBoost                                             |
+| `backend_CatBoost/`            | Mô hình CatBoost                                            |
+| `backend_LightGBM/`            | Mô hình LightGBM                                            |
+| `assets/`                      | Ảnh minh họa                                                |
+| `extension/`                   | Source code của extension trình duyệt Chrome                |
+| ├── `background.js`            | Background script của extension                             |
+| ├── `content.js`               | Tương tác với nội dung trang web                            |
+| ├── `icons.png`                | Icon cho extension                                          |
+| ├── `manifest.json`            | Cấu hình extension Chrome                                   |
+| ├── `model.js`                 | Tải mô hình dự đoán vào trình duyệt                         |
+| ├── `popup.html / popup.css`   | Giao diện popup khi click icon extension                    |
+| └── `popup.js`                 | Logic tương tác với giao diện popup                         |
+| `Phishing_Model.ipynb`         | Jupyter Notebook huấn luyện mô hình                         |
 | `requirements.txt`             | Thư viện cần thiết                                          |
 | `README.md`                    | Tài liệu mô tả dự án                                        |
 
