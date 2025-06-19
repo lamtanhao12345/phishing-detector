@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Phishing Detector</h2>
+    <input type="text" id="urlInput" placeholder="Enter URL or use current page">
+    <button id="checkButton">Check URL</button>
+    <button id="currentUrlButton">Use Current URL</button>
+    <div id="result" class="hidden">
+      <p><strong>Result:</strong> <span id="phishingStatus"></span></p>
+      <p><strong>Probability:</strong> <span id="probability"></span></p>
+      <p><strong>Source:</strong> <span id="source"></span></p>
+      <p id="extraInfo" class="hidden"></p>
+    </div>
+    <p id="error" class="error hidden"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
